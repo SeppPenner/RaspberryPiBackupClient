@@ -1,7 +1,7 @@
 RaspberryPiBackupClient
 ====================================
 
-RaspberryPiBackupClient is a project to backup certain directories from your Raspberry Pi to a WebDav server. The script was written and tested in Python 3.7.
+RaspberryPiBackupClient is a project to backup certain directories from your Raspberry Pi to a WebDav server. The script was written and tested in Python 3.7.1.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/giyrqr15h5caueoo?svg=true)](https://ci.appveyor.com/project/SeppPenner/raspberrypibackupclient)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/RaspberryPiBackupClient.svg)](https://github.com/SeppPenner/RaspberryPiBackupClient/issues)
