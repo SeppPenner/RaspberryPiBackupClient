@@ -15,12 +15,12 @@ class Lang:
 			'UploadingFile': 'Uploading file {0}.zip to the web dav server.',
 			'RemovingFile': 'Removing file {0}.zip'
 		}
-		
+
 	def setLanguage(self, language: str):
 		"Sets the language to the given value, currently valid: 'german' and 'english'"
 		self.language = language
 
-	@multimethod(object, str)
+	@multimethod
 	def getString(self, key: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -36,7 +36,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str)
+	@multimethod
 	def getString(self, key: str, value: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -52,7 +52,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str)
+	@multimethod
 	def getString(self, key: str, value: str, value2: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -68,7 +68,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str, str)
+	@multimethod
 	def getString(self, key: str, value: str, value2: str, value3: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -84,7 +84,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str, str, str)			
+	@multimethod
 	def getString(self, key: str, value: str, value2: str, value3: str, value4: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -100,7 +100,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str, str, str, str)
+	@multimethod
 	def getString(self, key: str, value: str, value2: str, value3: str, value4: str, value5: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -116,7 +116,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str, str, str, str, str)
+	@multimethod
 	def getString(self, key: str, value: str, value2: str, value3: str, value4: str, value5: str, value6: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
@@ -132,7 +132,7 @@ class Lang:
 		else:
 			raise ValueError('Wrong language specified.')
 
-	@multimethod(object, str, str, str, str, str, str, str, str)
+	@multimethod
 	def getString(self, key: str, value: str, value2: str, value3: str, value4: str, value5: str, value6: str, value7: str):
 		"Gets the text from the specified key in the specified language"
 		if self.language == 'german':
