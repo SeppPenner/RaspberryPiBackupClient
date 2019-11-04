@@ -7,7 +7,7 @@ RaspberryPiBackupClient is a project to backup certain directories from your Ras
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/RaspberryPiBackupClient.svg)](https://github.com/SeppPenner/RaspberryPiBackupClient/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/RaspberryPiBackupClient.svg)](https://github.com/SeppPenner/RaspberryPiBackupClient/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/RaspberryPiBackupClient.svg)](https://github.com/SeppPenner/RaspberryPiBackupClient/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/RaspberryPiBackupClient/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/RaspberryPiBackupClient/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/RaspberryPiBackupClient/badge.svg)](https://snyk.io/test/github/SeppPenner/RaspberryPiBackupClient) 
 
 # Steps to use this project:
