@@ -9,7 +9,7 @@ class Lang:
 			'UploadingFile': 'Hochladen der Datei {0}.zip auf den WebDav-Server.',
 			'RemovingFile': 'Entferne Datei {0}.zip'
 		}
-		english = {
+		self.english = {
 			'CompressingFile': 'Compressing {0} to {1}.zip',
 			'ReadingFile': 'Reading in file {0}.zip',
 			'UploadingFile': 'Uploading file {0}.zip to the web dav server.',
